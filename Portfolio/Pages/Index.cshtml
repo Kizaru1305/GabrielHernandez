@@ -1,0 +1,108 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center text-white">
+    <h1 class="display-4">GABRIEL HERNANDEZ</h1>
+</div>
+
+<!-- About me -->
+<div class="container">
+    <section id="about_me">
+        <div class="content">
+            <p>
+                Hello! My name is Gabriel. I have a BS in Computer Science and I'm looking to get into web developing. Currently I'm focusing on
+                learning .NET Core and C#.
+            </p>
+            <button type="button" class="btn btn-primary">Projects</button>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- Experience with languages etc-->
+    <section id="technology">
+        <h1>Technology</h1>
+        <div class="row justify-content-center">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="~/images/front-end2.png">
+                    <h5>Front-End</h5>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="~/images/back-end2.png">
+                    <h5>Back-End</h5>
+                    <p>C#/.NET Core</p>
+                    <p>PHP</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="~/images/server.png">
+                    <h5>Database</h5>
+                    <p>SQL/EF Core</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- Projects -->
+    <section id="projects">
+        <h1>Projects</h1>
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p>Architect & Engineer</p>
+                            <p>We love that guy</p>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p>Architect & Engineer</p>
+                            <p>We love that guy</p>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+    </section>
+
+
+
+
+</div>
